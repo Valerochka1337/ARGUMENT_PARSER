@@ -1,5 +1,6 @@
 #include "ArgParser.h"
 #include <utility>
+#include <cstring>
 
 ArgumentParser::ArgParser::ArgParser(std::string str) {
   name = std::move(str);
