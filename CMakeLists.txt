@@ -9,6 +9,8 @@ project(
 
 set(CMAKE_CXX_STANDARD 17)
 
+add_executable(ARGUMENT_PARSER ./bin/main.cpp)
+
 
 add_subdirectory(lib)
 add_subdirectory(bin)
