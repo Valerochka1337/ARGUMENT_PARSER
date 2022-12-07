@@ -37,5 +37,5 @@ jobs:
     - uses: actions/upload-artifact@v3
       with:
           name: ARGUMENT_PARSER
-          path: ${{github.workspace}}/build/*.exe
+          path: ${{github.workspace}}/build/labwork5.*
 
