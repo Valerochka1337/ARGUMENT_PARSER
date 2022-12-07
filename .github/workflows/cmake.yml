@@ -34,7 +34,7 @@ jobs:
       # Execute tests defined by the CMake configuration.
       # See https://cmake.org/cmake/help/latest/manual/ctest.1.html for more detail
       run: ctest -C ${{env.BUILD_TYPE}}
-    - uses: softprops/action-gh-release@1
+    - uses: softprops/action-gh-release@3
       with:
           name: ARGUMENT_PARSER
           path: ${{github.workspace}}/build/bin/labwork5.*
